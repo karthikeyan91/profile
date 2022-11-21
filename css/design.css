@@ -1,0 +1,161 @@
+.skillbar {
+  font-family: oswald-light;;
+	position:relative;
+	display:block;
+	margin-bottom:15px;
+	width:100%;
+	background:#eee;
+	height:35px;
+	border-radius:3px;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	-webkit-transition:0.4s linear;
+	-moz-transition:0.4s linear;
+	-ms-transition:0.4s linear;
+	-o-transition:0.4s linear;
+	transition:0.4s linear;
+	-webkit-transition-property:width, background-color;
+	-moz-transition-property:width, background-color;
+	-ms-transition-property:width, background-color;
+	-o-transition-property:width, background-color;
+	transition-property:width, background-color;
+}
+
+.skillbar-title {
+	position:absolute;
+	top:0;
+	left:0;
+	font-weight:bold;
+	font-size:13px;
+	color:#fff;
+	background:#6adcfa;
+	-webkit-border-top-left-radius:3px;
+	-webkit-border-bottom-left-radius:4px;
+	-moz-border-radius-topleft:3px;
+	-moz-border-radius-bottomleft:3px;
+	border-top-left-radius:3px;
+	border-bottom-left-radius:3px;
+}
+
+.skillbar-title span {
+	display:block;
+	background:rgba(0, 0, 0, 0.1);
+	padding:0 20px;
+	height:35px;
+	line-height:35px;
+	-webkit-border-top-left-radius:3px;
+	-webkit-border-bottom-left-radius:3px;
+	-moz-border-radius-topleft:3px;
+	-moz-border-radius-bottomleft:3px;
+	border-top-left-radius:3px;
+	border-bottom-left-radius:3px;
+}
+
+.skillbar-bar {
+	height:35px;
+	width:0px;
+	background:#6adcfa;
+	border-radius:3px;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+}
+
+.skill-bar-percent {
+	position:absolute;
+	right:10px;
+	top:0;
+	font-size:11px;
+	height:35px;
+	line-height:35px;
+	color:#444;
+	color:rgba(0, 0, 0, 0.4);
+}
+/*
+#skill2
+{
+    -webkit-transition-delay: 2s;
+    transition-delay: 2s;
+}
+#skill3
+{
+    -webkit-transition-delay: 3s;
+    transition-delay: 3s;
+}*/
+
+.inner-cont {
+    overflow: hidden;
+    background-image: url("../images/Balloon3.png");
+    width: 100%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    min-height: 480px;
+}
+.inner-cont1 {
+    overflow: hidden;
+    background-image: url("../images/Balloon2.png");
+    width: 100%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    min-height: 480px;
+    z-index: -1;
+}
+.inner-cont2 {
+    overflow: hidden;
+    background-image: url("../images/Balloon1.png");
+    width: 100%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    min-height: 480px;
+}
+#header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.5);
+    color:#fff;
+    z-index: 1100;
+    overflow: hidden;
+    -webkit-transition: height 0.3s;
+    -moz-transition: height 0.3s;
+    transition: height 0.3s;
+    text-align:center;
+    line-height:160px;
+
+}
+#header.shrink {
+    height: 100px;
+    line-height:80px;
+}
+
+/*.port img {
+    width: 100%;
+    position: absolute;
+    -webkit-filter: opacity(.8);  filter: opacity(.8);
+     -webkit-transition-duration: 0.5s; transition-duration: 0.5s;
+    top:0px;
+}
+.port:hover img {
+    -webkit-filter: opacity(1);  filter: opacity(1);
+}
+*/
+.port {
+    width: 160px;
+    background-position: center 0%;
+    float: left;
+    margin: 10px;
+    height: 200px;
+    overflow: hidden;
+    position: relative;
+    -webkit-transition-duration: 2s; /* Safari */    transition-duration: 2s;
+    -webkit-filter: grayscale(1);  filter: grayscale(1);
+}
+.port:hover
+{
+    background-position: center 100%;
+    -webkit-filter: grayscale(0);  filter: grayscale(0);
+}
+
+#navigation ul li a.current {color: #EE1D46;}
+
+

@@ -1,0 +1,144 @@
+Background width:
+---------------------------------
+
+background : transparent url("http://justsee.co.in/ksdarchitects.in/images/images/images/wbg2.png") no-repeat scroll center 0px / 100% auto;
+
+
+================================================
+
+
+MEDIA SCREEN
+
+@media screen and (max-width: 245px) 
+{
+tag/class/id {   width: 100%; }
+}
+
+
+-----------------------------
+
+
+SCALE
+
+-ms-transform: scale(1.1,1.1); /* IE 9 */    
+-webkit-transform: scale(1.1,1.1); /* Safari */   
+ transform: scale(1.1,1.1);
+
+----------------------------------
+
+ROTATE
+
+-webkit-transform:rotateY(360deg);    
+-moz-transform:rotateY(360deg);    
+transform:rotateY(360deg)
+
+----------------------------------
+
+SCALE and ROTATE
+
+-webkit-transform: rotate(-10deg) scale(1.4);
+-moz-transform: rotate(-10deg) scale(1.4);
+-ms-transform: rotate(-10deg) scale(1.4);
+-o-transform: rotate(-10deg) scale(1.4);
+transform: rotate(-10deg) scale(1.4);
+----------------------------------
+
+-----------------------------------
+
+PERSPECTIVE
+
+
+transform: perspective(880px) rotateY(35deg);
+-webkit-transform: perspective(880px) rotateY(35deg);
+
+
+-----------------------------
+
+TRANSITION DURATION
+
+ -webkit-transition-duration: 0.5s; /* Safari */    transition-duration: 0.5s;
+
+----------------------------------
+
+TRANSITION EFFECTS(ease)
+
+-webkit-transition-timing-function: ease; transition-timing-function: ease;
+
+----------------------------------
+
+TRANSITION DELAY
+
+  -webkit-transition-delay: 0.2s; /* Safari */    transition-delay: 0.2s;
+
+------------------------------------------
+
+TEXT SELECTION
+
+::-moz-selection {  color: red;  background: yellow;}
+::selection { color: red;  background: yellow;}
+
+
+-----------------------------------------------
+
+FILTER 
+
+
+grayscale 
+------------------
+
+-webkit-filter: grayscale(1);  filter: grayscale(1);
+
+Saturate 
+------------------
+
+-webkit-filter: saturate(8);  filter: saturate(8);
+
+hue-rotate
+------------------
+
+ -webkit-filter: hue-rotate(90deg);  filter: hue-rotate(90deg);
+
+invert
+------------------
+
+ -webkit-filter: invert(.8);  filter: invert(.8);
+
+opacity
+------------------
+
+-webkit-filter: opacity(.2);  filter: opacity(.2);
+
+brightness
+------------------
+
+-webkit-filter: brightness(3);  filter: brightness(3);
+
+contrast
+------------------
+
+-webkit-filter: contrast(4);  filter: contrast(4);
+
+blur
+------------------
+
+-webkit-filter: blur(5px);  filter: blur(5px);
+
+drop shadow
+------------------
+
+-webkit-filter: drop-shadow(16px 16px 10px rgba(0,0,0,0.9));   filter: drop-shadow(16px 16px 10px rgba(0,0,0,0.9));
+
+
+KEYFRAMES
+-------------------------------
+Calling
+--------------------
+-webkit-animation: float6 5s infinite; animation: float6 5s infinite;
+----------------------
+@-webkit-keyframes 
+float6 
+{  0% {  transform: rotate(-4deg);}50% {   transform: rotate(4deg);}100% {   transform: rotate(-4deg);}}
+
+@keyframes 
+float6 
+{    0% {  transform: rotate(-4deg);}50% {   transform: rotate(4deg);}100% {   transform: rotate(-4deg);}}

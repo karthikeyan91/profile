@@ -1,0 +1,343 @@
+/*.da-img img {
+    -webkit-filter: blur(10px);  filter: blur(10px);
+}*/
+@font-face {
+	font-family: 'opensans-regular';
+	src: url('../fonts/open-sans/OpenSans-Regular.ttf'); 
+        format('truetype');
+}
+@font-face {
+	font-family: 'opensans-bold';
+	src: url('../fonts/open-sans/OpenSans-Bold.ttf'); 
+        format('truetype');
+}
+@font-face {
+	font-family: 'opensans-light';
+	src: url('../fonts/open-sans/OpenSans-Light.ttf'); 
+        format('truetype');
+}
+@font-face {
+	font-family: 'opensans-italic';
+	src: url('../fonts/open-sans/OpenSans-Italic.ttf'); 
+        format('truetype');
+}
+@font-face {
+	font-family: 'oswald-regular';
+	src: url('../fonts/oswald/Oswald-Regular.ttf'); 
+        format('truetype');
+}
+@font-face {
+	font-family: 'oswald-bold';
+	src: url('../fonts/oswald/Oswald-Bold.ttf'); 
+        format('truetype');
+}
+@font-face {
+	font-family: 'oswald-light';
+	src: url('../fonts/oswald/Oswald-Light.ttf'); 
+        format('truetype');
+}
+.container-center
+{
+    width: 80%;
+    margin: 0 auto;
+}
+#header
+{
+   min-height: 100px;
+}
+.logo
+{
+    width: 35%;
+    float: left;
+    margin-top: 10px;
+}
+.logo-img {
+    width: 25%;
+    position: relative;
+    top: 5px;
+}
+.navigation
+{
+    width: 70%;
+    float: left;
+}
+.menu-ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0px 8px;
+}
+.menu-ul {
+    float: right;
+    margin-top: 10px;
+    margin-right: 70px;
+}
+.menu-ul li a {
+    font-size: 20px;
+    font-family: oswald-light;
+    color: #333;
+    padding: 0px 10px;
+}
+.menu-ul li a:hover
+{
+    color: #F21147;
+}
+.active
+{
+    color: #F21147 !important;
+    border-bottom: 1px solid #F21147;
+}
+a, a:hover
+{
+    outline: none;
+    text-decoration: none !important;
+}
+.grid-1
+{
+    width: 30%;
+    margin: 1.666%;
+    float:left;
+    text-align: center;
+    position: relative;
+    top: 60px;
+}
+.grid-1 img
+{
+    width: 20%;
+}
+
+.grid-1 h3 {
+    font-family: oswald-light;
+    color: #180207;
+    font-size: 17px;
+    border-top: 1px solid #E51043;
+    padding-top: 15px;
+    width: 80%;
+    margin: 20px auto;
+}
+.inner-container {
+    width: 100%;
+    min-height: 450px;
+}
+p {
+    font-family: opensans-regular;
+    font-size: 13px;
+    line-height: 24px;
+    color: #777;
+}
+.grid-1 p {
+    margin-bottom: 30px;
+}
+.container-full {
+    background: url("../images/bg5.jpg");
+    padding: 6%;
+    min-height: 590px;
+    background-size: 100%;
+    margin-bottom: 50px; 
+    position: relative;
+}
+.cont-main {
+    width: 43%;
+    float: left;
+    overflow: hidden;
+    height: 220px;
+ -webkit-transition-duration: 0.5s; /* Safari */    transition-duration: 0.5s;
+    position: relative;
+       
+}
+.cont-main-1 {
+    height: 360px;
+    -webkit-transition-duration: 0.5s; /* Safari */    transition-duration: 0.5s;
+}
+.cont-3
+{
+    color: #000;
+}
+.title-3 {
+    font-size: 30px;
+    font-family: oswald-light;
+    color: #CA0F3F;
+    margin-bottom: 30px;
+}
+.img-3 {
+    float: left;
+    width: 29%;
+    margin-left: 20%;
+}
+.rm-but {
+    position: absolute;
+    bottom: 0px;
+    right: 5px;
+    color: #fff;
+    background: #CA0F3F;
+    padding: 3px 6px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: opensans-regular;
+    font-size: 13px;
+}
+.rm-but:hover {
+color:#fff;
+}
+.grid-2 img
+{
+    width: 100%;
+    padding: 6%;
+    -webkit-filter: opacity(.5);  filter: opacity(.5);
+}
+.grid-2 h3 {
+    color: #CA0F3F;
+    font-family: oswald-light;
+    font-size: 25px;
+    text-align: right;
+    margin-bottom: 30px;
+    padding-right: 5px;
+}
+.container-full::before {
+    content: "";
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    top: 0px;
+    left: 48%;
+    border: 30px solid transparent;
+    border-top-color: #fff;
+}
+.margin-B {
+    margin-bottom: 50px
+}
+.hg650
+{
+    min-height: 650px;
+}
+#section3 {
+    padding-top: 100px;
+}
+.hg650 {
+    padding-top: 100px;
+}
+.titleh3 {
+    font-family: oswald-light;
+    color: #EE2144;
+    text-align: center;
+    font-size: 35px;
+    text-transform: uppercase;
+    margin: 10px 0px;
+}
+.port1
+{
+    background: url(../images/web/ascribe.png);
+}
+
+.port2
+{
+    background: url(../images/web/bestavaiation.png);
+}
+.port3
+{
+    background: url(../images/web/furnpoint.png);
+}
+.port4
+{
+    background: url(../images/web/hitechlifts.png);
+}
+.port5
+{
+    background: url(../images/web/jaismatrimony.png);
+}
+.port6
+{
+    background: url(../images/web/magicpotions.png);
+}
+.port7
+{
+    background: url(../images/web/royalexports.png);
+}
+.port8
+{
+    background: url(../images/web/sakticreations.png);
+}
+.port9
+{
+    background: url(../images/web/sanjaycabs.png);
+}
+.port10
+{
+    background: url(../images/web/satyawaterdrillers.png);
+}
+.port11
+{
+    background: url(../images/web/southerorgano.png);
+}
+.port12
+{
+    background: url(../images/web/SSMtrinity.png);
+}
+.grid-1 h2 {
+    font-size: 22px;
+    font-family: oswald-light;
+    color: #F21147;
+    font-weight: ;
+    letter-spacing: 1px;
+    margin: 30px 0px;
+}
+#section5{position:relative;}
+#section5 footer {
+    position: absolute;
+    bottom: 0px;
+    background: #EE1D46;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+    padding: 20px 0px;
+    font-family: opensans-regular;
+}
+.ft_sec h3 {
+    font-family: oswald-light;
+    color: #EE1D46;
+    font-size: 45px;
+    float: left;
+    padding-top: 20%;
+    padding-left: 30px;
+    text-transform: uppercase;
+}
+.ft_sec {
+    width: 50%;
+    float: left;
+    padding: 0% 5%;
+}
+.map {
+    float: left;
+    width: 300px;
+    border-radius: 50%;
+    overflow: hidden;
+    height: 300px;
+    margin-left: 15%;
+}
+.ft_sec h3 span {
+        font-size: 20px;
+    color: #8A8A8A;
+}
+#section5 footer::before {
+    content: "";
+    position: absolute;
+    top: -183px;
+    background: #000;
+    background: url(../images/footertop.jpg);
+    width: 100%;
+    height: 183px;
+    left: 0px;
+    background-repeat: repeat-x;
+}
+.soc_icon {
+    width: 65px;
+    margin: 36% 2% 0%;
+    cursor: pointer;
+}
+.social {
+    width: 60%;
+    float: left;
+    margin-left: 10%;
+}
+.bird {
+    width: 240px;
+}
